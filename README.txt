@@ -1,5 +1,4 @@
 1. Project Introduction
- 
 What the project is
 Why we chose it
 Explain Group members and roles
@@ -21,7 +20,6 @@ Screenshots of commits, branches, tags
 Explanation of how we used the version control
 
 5. User Manual
- 
 How to run the project
 How to interact with it
 
