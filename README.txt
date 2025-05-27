@@ -11,6 +11,8 @@ with 0,0,0,0,0 represented the 5 fingers for a single array with the value of â€
 
 ![Figure 1: Game Logic Flow](../figures/figure_1.png)
 
+
+
 3. Scrum/Agile Implementation
 Product Backlog which we will explain the tasks planned at the start
 Sprint 1 / 2 / 3 Backlogs (tasks done in each iteration)
