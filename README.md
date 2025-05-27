@@ -11,6 +11,9 @@ with 0,0,0,0,0 represented the 5 fingers for a single array with the value of â€
 
 ![Figure 1: Game Logic Flow](figures/figure_1.png)
 
+<div align="center">
+  <img src="figures/figure_1.png" alt="Figure 1: Game Logic Flow"/>
+</div>
 
 
 3. Scrum/Agile Implementation
