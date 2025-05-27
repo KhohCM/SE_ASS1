@@ -33,4 +33,4 @@ Challenges our  group faced
 What we have learned
 Improvements
 
-![My Image](images\testImage.png)
+![My Image](images/testImage.png)
