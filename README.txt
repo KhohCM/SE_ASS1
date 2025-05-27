@@ -33,4 +33,4 @@ Challenges our  group faced
 What we have learned
 Improvements
 
-![Figure 1: Game Logic Flow](../images/testImage.png)
+![testImage](../images/testImage.png)
