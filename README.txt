@@ -32,3 +32,5 @@ How to interact with it
 Challenges our  group faced 
 What we have learned
 Improvements
+
+![My Image](images/testImage.png)
