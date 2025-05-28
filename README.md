@@ -69,9 +69,9 @@ Report
 - Reflection & Conclusion (Due: 2025 June 15)
 
 Project basics 
-- open git hub create read me file
-- determine the topic 
-- create a kanban board for schedule planaing
+- open git hub create read me file - Khor Char Meng
+- determine the topic  - Hoi Wen Han , Khor Char Meng,  Tharsshen Govikrishnan
+- create a kanban board for schedule planaing - Hoi Wen Han
 
 
 5. Version Control
