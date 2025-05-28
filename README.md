@@ -26,52 +26,52 @@ Next to manage the development of the Rock-Paper-Scissors AI game efficiently, o
 ## 3.2 Kanban Board Tracking
 As a side note, we utilized a Kanban board as shown in the screenshot to manage and monitor our task progress and the tasks were organized into several columsn such as
 
-. To Do -  which will allocated what we must do first or which function of system we should prioritize
-. In Progress - which will show which function of system and task is still in progress 
-. Completed - show function of system and task that are completed 
-. Report  -  which it will be include table of contents  
-. Redo - which will be the task or system that require to redo after some bugs or errors that have beed defined
-. Closed  - which will listing out all of the task and system that has been completed
+- To Do -  which will allocated what we must do first or which function of system we should prioritize
+- In Progress - which will show which function of system and task is still in progress 
+- Completed - show function of system and task that are completed 
+- Report  -  which it will be include table of contents  
+- Redo - which will be the task or system that require to redo after some bugs or errors that have beed defined
+- Closed  - which will listing out all of the task and system that has been completed
 
 ## 3.3 Team Task Distribution
 For this project we have decided to conduct task distribution through dicussion on the dates that we were free of external task and who is expert in specific areas in terms of developing system functionality and the system UI. Thus here is the following list corresponding with the dates have we have successfully discuss: 
 
 Core game mechanics
-- Implementing webcam hand detection using cvzone (Due: 2025 May 29)
--  Detecting hand gestures (Rock, Paper, Scissors) (Due: 2025 June 2)
--  Adding a basic background story (Due: 2025 June 3)
--  Setting up a basic GUI (BG.png) (Due: 2025 June 4)
--  Allowing game exit using the 'q' key (Due: 2025 June 4)
+- Implementing webcam hand detection using cvzone (Due: 2025 May 29) Tharsshen Govikrishnan
+-  Detecting hand gestures (Rock, Paper, Scissors) (Due: 2025 June 2) Tharsshen Govikrishnan
+-  Adding a basic background story (Due: 2025 June 3) Hoi Wen Han
+-  Setting up a basic GUI (BG.png) (Due: 2025 June 4) Hoi Wen Han
+-  Allowing game exit using the 'q' key (Due: 2025 June 4) Tharsshen Govikrishnan, Khor Char Meng
 
 Tournament Flow + UI
-- Tracking and displaying scores over 5 rounds (Due: 2025 June 5)
-- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)
-- Aligning player and AI visuals on screen (Due: 2025 June 5)
-- Score display at top left of screen (Due: 2025 June 5)
-- Displaying result: win/loss/draw (Due: 2025 June 6)
-- Showing themed video using tkvideo (Due: 2025 June 6)
-- Adding a restart button (via 'r' key) (Due: 2025 June 6)
+- Tracking and displaying scores over 5 rounds (Due: 2025 June 5) Hoi Wen Han, Khor Char Meng
+- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6) Khor Char Meng , Hoi Wen Han
+- Aligning player and AI visuals on screen (Due: 2025 June 5) Hoi Wen Han
+- Score display at top left and right of screen (Due: 2025 June 5) Khor Char Meng, Hoi Wen Han
+- Displaying result: win/loss/draw (Due: 2025 June 6) Khor Char Meng , Hoi Wen Han
+- Showing themed video using tkvideo (Due: 2025 June 6) Tharsshen Govikrishnan
+- Adding a restart button (via 'r' key) (Due: 2025 June 6) Khor Char Meng , Tharsshen Govikrishnan
 
 
 Game Modes & Engagement
-- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8)
-- Adding sound effects (Due: 2025 June 9)
-- Implementing button-based mode selection (Due: 2025 June 11)
-- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11)
+- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8) Tharsshen Govikrishnan, Khor Char Meng, Hoi Wen Han
+- Adding sound effects (Due: 2025 June 9) Khor Char Meng, Hoi Wen Han
+- Implementing button-based mode selection (Due: 2025 June 11) Tharsshen Govikrishnan, Hoi Wen Han
+- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11) Khor Char Meng,  Tharsshen Govikrishnan
 
 
 Report
-- Project overview (June 14)
-- system development and features (Due: 2025 June 16) - wen han
-- Scrum/Kanban Implementation (Due: 2025 June 15) - wen han
-- version control (Due: 2025 June 15)
+- Project overview (June 14) 
+- System development and features (Due: 2025 June 16) - Hoi Wen Han
+- Scrum/Kanban Implementation (Due: 2025 June 15) - Hoi Wen Han
+- Version control (Due: 2025 June 15)
 - User Manual (Due: 2025 June 16)
 - Reflection & Conclusion (Due: 2025 June 15)
 
 Project basics 
 - open git hub create read me file
 - determine the topic 
--  create a kanban board for schedule planaing
+- create a kanban board for schedule planaing
 
 
 5. Version Control
