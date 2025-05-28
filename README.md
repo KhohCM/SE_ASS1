@@ -18,22 +18,72 @@ As stated in the intrdiuction section, this interactive system  participants wil
 For the system's features this project has decided to categorize into 3 enhancements corresponding with the current issues of the rock paper sciorss gameplay which were lack of difficulty variation in certain situation where if hardcore rock paper scissors players wanted to challenge the game they are require to find required a expert players to stay engaged. Next is miminal player feedback, players only provide reaction through facial emotion and basic visual cues, which can lead to boredom and disconnection from the experience and without meaningful feedback or interactive elements, the gameplay can feel repetitive and unengaging. Lastly is limited engagement, such that traditional rock-paper-scissors games offer little beyond the basic gameplay loop, they often lack visual appeal, sound effects, narrative context, or interactive features, thus leading to short-term interest and limited replay value. Therefore to solve the following issues tha we have defined, 3 proposed solutions or enhancement for project was developed through three iterations which were defined as Sprint 1 to Sprint 3, with each iteration focusing on specific areas of improvement in terms of the gameplay experience and visulization for users. Starting from the first iteration which involves in core gameplay mechanics , the system includes or offers three 3 difficulty modes which consist of easy, medium and hard with each using different algorithmic strategies where  easy mode uses a easy uses a deterministic and predictable pattern based on varible roundNumber % 3 thus allowing players to learn and recognize a sequence over time, as for Medium Mode, this mode applies a probabilistic model using Python's random.randint() function to select moves unpredictably, in contrast to hard mode uses a rule-based conditional system where the system selects the exact counter to the player’s move, guaranteeing a win if input is recognized correctly. For the second iteration, we have decided that the system may include a UI using pygame library for user interface and feedback where the UI consist the output of the system  and represent them as 3 images,  rock , paper and scissor. addtionally the system will also display the user's hand and face to provide visual feedback and justification towards the detected hand gestures. Lasltly for the third iteration this project has decided to add features to boost immersion and engagement through including several sound effect such as winning and end phase, thus allowing the players to be more immersive in the game itself, and for further improvement in terms of user engagement, a simple storyline was introduced towards the system as well where players can experince an enhance version of the game rock paper scissor, in consequence transforming it from a basic loop into a more narrative-driven experience, and through storytelling element, it enable increases player interest and adds emotional depth to the gameplay. As a side information in terms of technical specification and the libaray was used for this project development, a webcam was use for receiving the input python core programming language for logic and integration, OpenCV (cv2) for image processing and camera feed input, cvzone for hand gesture tracking and classification, pygame for rendering images, text, and sound in the UI, and lastly tkinter and tkvideo library will be used for displaying post-game video and interface elements.
 
 
-3. Scrum/Agile Implementation
-Product Backlog which we will explain the tasks planned at the start
-Sprint 1 / 2 / 3 Backlogs (tasks done in each iteration)
-Kanban board screenshots showing task progress
-how the tasks were distributed in our group
+## 3.0 Scrum/Agile Implementation
 
-4. Version Control
+## 3.1 Product Backlog
+Next to manage the development of the Rock-Paper-Scissors AI game efficiently, our team adopted the Agile Scrum methodology and this approach allowed us to divide the project into manageable tasks, prioritize development goals, and track our progress using a Kanban board, and at the begining of the project, we have created a product blocklog that identified all of the essential features and task reqired to complete our project which were categorized based on the functional components of the system such as for the sprint 1 it will be defined as Core Game Mechanics which include the task hand detection, gesture recognition, and basic GUI for our system, next for sprint 2 is tournament flow and feedback including score tracking, winner declaration, and user layout moving on for sprint 3 it will be game modes and sound effects which include Easy/Medium/Hard modes, sound design, and round counter. Addtionally, another sprint will be include as well but not related to system enhancement which will be "reporting" and it encompasses system documentation, version control, and user manual. 
+
+## 3.2 Kanban Board Tracking
+As a side note, we utilized a Kanban board as shown in the screenshot to manage and monitor our task progress and the tasks were organized into several columsn such as
+
+. To Do -  which will allocated what we must do first or which function of system we should prioritize
+. In Progress - which will show which function of system and task is still in progress 
+. Completed - show function of system and task that are completed 
+. Report  -  which it will be include table of contents  
+. Redo - which will be the task or system that require to redo after some bugs or errors that have beed defined
+. Closed  - which will listing out all of the task and system that has been completed
+
+## 3.3 Team Task Distribution
+For this project we have decided to conduct task distribution through dicussion on the dates that we were free of external task and who is expert in specific areas in terms of developing system functionality and the system UI. Thus here is the following list corresponding with the dates have we have successfully discuss: 
+
+Core game mechanics
+- Implementing webcam hand detection using cvzone (Due: 2025 May 29)
+-  Detecting hand gestures (Rock, Paper, Scissors) (Due: 2025 June 2)
+-  Adding a basic background story (Due: 2025 June 3)
+-  Setting up a basic GUI (BG.png) (Due: 2025 June 4)
+-  Allowing game exit using the 'q' key (Due: 2025 June 4)
+
+Tournament Flow + UI
+- Tracking and displaying scores over 5 rounds (Due: 2025 June 5)
+- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)
+- Aligning player and AI visuals on screen (Due: 2025 June 5)
+- Score display at top left of screen (Due: 2025 June 5)
+- Displaying result: win/loss/draw (Due: 2025 June 6)
+- Showing themed video using tkvideo (Due: 2025 June 6)
+- Adding a restart button (via 'r' key) (Due: 2025 June 6)
+
+
+Game Modes & Engagement
+- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8)
+- Adding sound effects (Due: 2025 June 9)
+- Implementing button-based mode selection (Due: 2025 June 11)
+- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11)
+
+
+Report
+- Project overview (June 14)
+- system development and features (Due: 2025 June 16) - wen han
+- Scrum/Kanban Implementation (Due: 2025 June 15) - wen han
+- version control (Due: 2025 June 15)
+- User Manual (Due: 2025 June 16)
+- Reflection & Conclusion (Due: 2025 June 15)
+
+Project basics 
+- open git hub create read me file
+- determine the topic 
+-  create a kanban board for schedule planaing
+
+
+5. Version Control
 Explain GitHub repository used
 Screenshots of commits, branches, tags
 Explanation of how we used the version control
 
-5. User Manual
+6. User Manual
 How to run the project
 How to interact with it
 
-6. Reflection & Conclusion
+7. Reflection & Conclusion
 Challenges our  group faced 
 What we have learned
 Improvements
