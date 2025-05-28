@@ -73,7 +73,7 @@ Project basics
 - determine the topic  - Hoi Wen Han , Khor Char Meng,  Tharsshen Govikrishnan
 - create a kanban board for schedule planaing - Hoi Wen Han
 
-Overall here will be the complete version of the kanban board using website click up
+Overall Figure 2 will be the complete version of the kanban board using website click up
 
 <div align="center">
   <img src="figures/figure_2.png" alt="Figure 2: Kanban Board"/>
