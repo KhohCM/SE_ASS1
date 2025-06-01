@@ -1,18 +1,14 @@
 ## 1.0 Project Introduction
-What the project is
-Why we chose it
-Explain Group members and roles
 
-In this report, our group decided to discuss the idea and explore the possible use of algorithms in
+In this report, our group decided to discuss the idea and explore various types of algorithms in
 the Rock-Paper-Scissors game. Through this activity, our group decided to implement the
 concept of “Artificial Intelligence” where participants engaged in a game with a computer
 instead of real players to demonstrate both competitors' abilities in using various algorithmic
 strategies. The main goal of this task and in this report will be discussed ,was to conduct an
 engaging game that highlighted the core algorithmic concepts or characteristics which includes
-time complexity, space complexity and adaptive algorithms that were engaging for participants
-and with the goal of letting participants have a better understanding of what algorithms.
+time complexity, space complexity and adaptive algorithms that were engaging for participants.
 
-This project was a collaborative effort among all group members. Wen Han was responsible for the code development, ensuring the core functionality and logic of the game. Tharsshen and Li Xian focused on designing the user interface to make the game visually appealing and user-friendly. Char Meng provided valuable assistance and support throughout the development process, contributing to both planning and execution.Together, we worked to create a system that is not only functional but also appealing and educational for participants.
+Each team member has made efforts in the respective fields. Wen Han was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Tharsshen and Li Xian concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
 
 ## 2.0 System Development & Features
 
@@ -52,23 +48,23 @@ Core game mechanics
 -  Detecting hand gestures (Rock, Paper, Scissors) (Due: 2025 June 2) - Tharsshen Govikrishnan
 -  Adding a basic background story (Due: 2025 June 3) - Hoi Wen Han
 -  Setting up a basic GUI (BG.png) (Due: 2025 June 4) - Hoi Wen Han
--  Allowing game exit using the 'q' key (Due: 2025 June 4) - Tharsshen Govikrishnan, Khor Char Meng
+-  Allowing game exit using the 'q' key (Due: 2025 June 4) - Tharsshen Govikrishnan, Khoh Char Meng
 
 Tournament Flow + UI
-- Tracking and displaying scores over 5 rounds (Due: 2025 June 5) - Hoi Wen Han, Khor Char Meng
-- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)- Khor Char Meng , Hoi Wen Han
+- Tracking and displaying scores over 5 rounds (Due: 2025 June 5) - Hoi Wen Han, Khoh Char Meng
+- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)- Khoh Char Meng , Hoi Wen Han
 - Aligning player and AI visuals on screen (Due: 2025 June 5)- Hoi Wen Han
-- Score display at top left and right of screen (Due: 2025 June 5) - Khor Char Meng, Hoi Wen Han
-- Displaying result: win/loss/draw (Due: 2025 June 6) - Khor Char Meng , Hoi Wen Han
+- Score display at top left and right of screen (Due: 2025 June 5) - Khoh Char Meng, Hoi Wen Han
+- Displaying result: win/loss/draw (Due: 2025 June 6) - Khoh Char Meng , Hoi Wen Han
 - Showing themed video using tkvideo (Due: 2025 June 6) - Tharsshen Govikrishnan
-- Adding a restart button (via 'r' key) (Due: 2025 June 6) - Khor Char Meng , Tharsshen Govikrishnan
+- Adding a restart button (via 'r' key) (Due: 2025 June 6) - Khoh Char Meng , Tharsshen Govikrishnan
 
 
 Game Modes & Engagement
-- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8) - Tharsshen Govikrishnan, Khor Char Meng, Hoi Wen Han
-- Adding sound effects (Due: 2025 June 9) - Khor Char Meng, Hoi Wen Han
+- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8) - Tharsshen Govikrishnan, Khoh Char Meng, Hoi Wen Han
+- Adding sound effects (Due: 2025 June 9) - Khoh Char Meng, Hoi Wen Han
 - Implementing button-based mode selection (Due: 2025 June 11) - Tharsshen Govikrishnan, Hoi Wen Han
-- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11) - Khor Char Meng,  Tharsshen Govikrishnan
+- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11) - Khoh Char Meng,  Tharsshen Govikrishnan
 
 
 Report
@@ -80,8 +76,8 @@ Report
 - Reflection & Conclusion (Due: 2025 June 15)
 
 Project basics 
-- open git hub create read me file - Khor Char Meng
-- determine the topic  - Hoi Wen Han , Khor Char Meng,  Tharsshen Govikrishnan
+- open git hub create read me file - Khoh Char Meng
+- determine the topic  - Hoi Wen Han , Khoh Char Meng,  Tharsshen Govikrishnan
 - create a kanban board for schedule planaing - Hoi Wen Han
 
 Overall Figure 2 will be the complete version of the kanban board using website click up
