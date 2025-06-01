@@ -3,6 +3,17 @@ What the project is
 Why we chose it
 Explain Group members and roles
 
+In this report, our group decided to discuss the idea and explore the possible use of algorithms in
+the Rock-Paper-Scissors game. Through this activity, our group decided to implement the
+concept of “Artificial Intelligence” where participants engaged in a game with a computer
+instead of real players to demonstrate both competitors' abilities in using various algorithmic
+strategies. The main goal of this task and in this report will be discussed ,was to conduct an
+engaging game that highlighted the core algorithmic concepts or characteristics which includes
+time complexity, space complexity and adaptive algorithms that were engaging for participants
+and with the goal of letting participants have a better understanding of what algorithms.
+
+This project was a collaborative effort among all group members. Wen Han was responsible for the code development, ensuring the core functionality and logic of the game. Tharsshen and Li Xian focused on designing the user interface to make the game visually appealing and user-friendly. Char Meng provided valuable assistance and support throughout the development process, contributing to both planning and execution.Together, we worked to create a system that is not only functional but also appealing and educational for participants.
+
 ## 2.0 System Development & Features
 
 ## 2.1 System Logic
