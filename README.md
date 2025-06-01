@@ -1,9 +1,9 @@
-1. Project Introduction
+## 1.0 Project Introduction
 What the project is
 Why we chose it
 Explain Group members and roles
 
-2.0 System Development & Features
+## 2.0 System Development & Features
 
 ## 2.1 System Logic
 As stated in the introduction section, the system's gameplay that this project has decided to developed, participants will play a classic Rock-Paper-Scissors game  against a computer opponent that is programmed to adapt its choices based on the participant’s previous moves. By using a simple pattern-recognition algorithm, the computer will adjust its  responses creating a dynamic and strategic challenge where players must try to “outsmart” the system. The game provides a fun and engaging way to explore basic concepts in terms of  prediction and machine learning algorithm. For this project development, we will use “Python” a programming language, accompanied by several libraries to develop, libraries include, cvzone’s  “HandTrackingModule” for object tracking , pygame and cv2 a computer vision library for image processing which includes detecting objects and tracking motion. The system takes the input of the player through a camera and pass the input through the library cv2 handtracking module which not only invloves in object tracking but classification towards the object has been detected or tracked where the module tracks based on the interjoints of a person's hand or the player's hand in this senario, and determine the types of gestures that the user has preformed. Moving forward after the system takes the number of interjoints that has been detected by using handtracking module, the system will perfom a mapping technique which will be represented or be mapped into 0 and 1 for classification task  with 0,0,0,0,0 (represented as 5 fingers ) a single array with the variable of “1”  which will be  “Rock”, paper will have an array of 1,1,1,1,1 which will be represent with the variable of  “2”  and 0,1,1,0,0 will be scissors with the variable of 3. Lastly  the system will take  the output values of the mapping and will impliment it through a if else condition or a form of rule based condition. which will be represented as (Figure 1).
