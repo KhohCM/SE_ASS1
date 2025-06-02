@@ -89,7 +89,14 @@ Overall Figure 2 will be the complete version of the kanban board using website 
 
 
 5. Version Control
-GitHub served as our collaborative version control tool for this project, allowing us to track and manage the development process.  All team members could review changes, contribute their work, and maintain project organization in this GitHub repository.
+GitHub served as our collaborative version control tool for this project, which allow us to track and manage the development process.  All team members could review changes, contribute their work, and maintain project organization in this GitHub repository.
+
+We managed every stage of development using commits, branches, and tags in accordance with best practices. To record the project's modifications and advancements, commits were made on a regular basis with concise, descriptive remarks.
+
+<div align="center">
+  <img src="figures/figure_3.png" alt="Figure 2: Kanban Board"/>
+  <p><em>Figure 2: GitHub Commits</em></p>
+</div>
 
 Screenshots of commits, branches, tags
 Explanation of how we used the version control
