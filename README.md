@@ -100,10 +100,11 @@ To record the project's modifications and advancements, commits were made on a r
   <p><em>Figure 2: GitHub Commits</em></p>
 </div>
 
-Branches were created to separate the tasks assigned to each group member, such as UI design, AI algorithm development, and testing.
+Branches were created to separate the tasks assigned to each group member, such as UI design, AI algorithm development, and testing.With this strategy, we were able to work simultaneously without restricting each other's contributions.
+
 <div align="center">
   <img src="figures/figure_4.png" alt="Figure 2: Kanban Board"/>
-  <p><em>Figure 2: GitHub Commits</em></p>
+  <p><em>Figure 2: GitHub Branches</em></p>
 </div>
 
 Screenshots of commits, branches, tags
