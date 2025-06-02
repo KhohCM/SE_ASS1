@@ -107,8 +107,10 @@ Branches were created to separate the tasks assigned to each group member, such 
   <p><em>Figure 2: GitHub Branches</em></p>
 </div>
 
-Screenshots of commits, branches, tags
-Explanation of how we used the version control
+
+Screenshots TAGS
+
+We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
 6. User Manual
 How to run the project
