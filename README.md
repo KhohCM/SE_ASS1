@@ -89,7 +89,8 @@ Overall Figure 2 will be the complete version of the kanban board using website 
 
 
 5. Version Control
-Explain GitHub repository used
+GitHub served as our collaborative version control tool for this project, allowing us to track and manage the development process.  All team members could review changes, contribute their work, and maintain project organization in this GitHub repository.
+
 Screenshots of commits, branches, tags
 Explanation of how we used the version control
 
