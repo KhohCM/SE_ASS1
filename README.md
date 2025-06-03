@@ -8,7 +8,7 @@ strategies. The main goal of this task and in this report will be discussed ,was
 engaging game that highlighted the core algorithmic concepts or characteristics which includes
 time complexity, space complexity and adaptive algorithms that were engaging for participants.
 
-Each team member has made efforts in the respective fields. Wen Han was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Tharsshen and Li Xian concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
+Each team member has made efforts in the respective fields. Tharsshen was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Wen Han and Li Xian concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
 
 ## 2.0 System Development & Features
 
@@ -46,23 +46,23 @@ For this project we have decided to conduct task distribution through dicussion 
 Core game mechanics
 - Implementing webcam hand detection using cvzone (Due: 2025 May 29) - Tharsshen Govikrishnan
 -  Detecting hand gestures (Rock, Paper, Scissors) (Due: 2025 June 2) - Tharsshen Govikrishnan
--  Adding a basic background story (Due: 2025 June 3) - Hoi Wen Han
--  Setting up a basic GUI (BG.png) (Due: 2025 June 4) - Hoi Wen Han
+-  Adding a basic background story (Due: 2025 June 3) - Hoi Wen Han -  Li Xian
+-  Setting up a basic GUI (BG.png) (Due: 2025 June 4) - Hoi Wen Han - Li Xian
 -  Allowing game exit using the 'q' key (Due: 2025 June 4) - Tharsshen Govikrishnan, Khoh Char Meng
 
 Tournament Flow + UI
 - Tracking and displaying scores over 5 rounds (Due: 2025 June 5) - Hoi Wen Han, Khoh Char Meng
-- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)- Khoh Char Meng , Hoi Wen Han
-- Aligning player and AI visuals on screen (Due: 2025 June 5)- Hoi Wen Han
-- Score display at top left and right of screen (Due: 2025 June 5) - Khoh Char Meng, Hoi Wen Han
-- Displaying result: win/loss/draw (Due: 2025 June 6) - Khoh Char Meng , Hoi Wen Han
+- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)- Khoh Char Meng , Hoi Wen Han , Li Xian
+- Aligning player and AI visuals on screen (Due: 2025 June 5)- Hoi Wen Han - Li Xian
+- Score display at top left and right of screen (Due: 2025 June 5) - Khoh Char Meng, Hoi Wen Han,  Li Xian
+- Displaying result: win/loss/draw (Due: 2025 June 6) - Khoh Char Meng , Hoi Wen Han , Li Xian
 - Showing themed video using tkvideo (Due: 2025 June 6) - Tharsshen Govikrishnan
 - Adding a restart button (via 'r' key) (Due: 2025 June 6) - Khoh Char Meng , Tharsshen Govikrishnan
 
 
 Game Modes & Engagement
 - Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8) - Tharsshen Govikrishnan, Khoh Char Meng, Hoi Wen Han
-- Adding sound effects (Due: 2025 June 9) - Khoh Char Meng, Hoi Wen Han
+- Adding sound effects (Due: 2025 June 9) - Khoh Char Meng, Hoi Wen Han, , Li Xian
 - Implementing button-based mode selection (Due: 2025 June 11) - Tharsshen Govikrishnan, Hoi Wen Han
 - Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11) - Khoh Char Meng,  Tharsshen Govikrishnan
 
@@ -78,7 +78,7 @@ Report
 Project basics 
 - open git hub create read me file - Khoh Char Meng
 - determine the topic  - Hoi Wen Han , Khoh Char Meng,  Tharsshen Govikrishnan
-- create a kanban board for schedule planaing - Hoi Wen Han
+- create a kanban board for schedule planaing - Hoi Wen Han -  Li Xian
 
 Overall Figure 2 will be the complete version of the kanban board using website click up
 
