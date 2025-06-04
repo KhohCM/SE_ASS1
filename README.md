@@ -1,9 +1,16 @@
-1. Project Introduction
-What the project is
-Why we chose it
-Explain Group members and roles
+## 1.0 Project Introduction
 
-2.0 System Development & Features
+In this report, our group decided to discuss the idea and explore various types of algorithms in
+the Rock-Paper-Scissors game. Through this activity, our group decided to implement the
+concept of “Artificial Intelligence” where participants engaged in a game with a computer
+instead of real players to demonstrate both competitors' abilities in using various algorithmic
+strategies. The main goal of this task and in this report will be discussed ,was to conduct an
+engaging game that highlighted the core algorithmic concepts or characteristics which includes
+time complexity, space complexity and adaptive algorithms that were engaging for participants.
+
+Each team member has made efforts in the respective fields. Tharsshen was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Wen Han and Li Xian concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
+
+## 2.0 System Development & Features
 
 ## 2.1 System Logic
 As stated in the introduction section, the system's gameplay that this project has decided to developed, participants will play a classic Rock-Paper-Scissors game  against a computer opponent that is programmed to adapt its choices based on the participant’s previous moves. By using a simple pattern-recognition algorithm, the computer will adjust its  responses creating a dynamic and strategic challenge where players must try to “outsmart” the system. The game provides a fun and engaging way to explore basic concepts in terms of  prediction and machine learning algorithm. For this project development, we will use “Python” a programming language, accompanied by several libraries to develop, libraries include, cvzone’s  “HandTrackingModule” for object tracking , pygame and cv2 a computer vision library for image processing which includes detecting objects and tracking motion. The system takes the input of the player through a camera and pass the input through the library cv2 handtracking module which not only invloves in object tracking but classification towards the object has been detected or tracked where the module tracks based on the interjoints of a person's hand or the player's hand in this senario, and determine the types of gestures that the user has preformed. Moving forward after the system takes the number of interjoints that has been detected by using handtracking module, the system will perfom a mapping technique which will be represented or be mapped into 0 and 1 for classification task  with 0,0,0,0,0 (represented as 5 fingers ) a single array with the variable of “1”  which will be  “Rock”, paper will have an array of 1,1,1,1,1 which will be represent with the variable of  “2”  and 0,1,1,0,0 will be scissors with the variable of 3. Lastly  the system will take  the output values of the mapping and will impliment it through a if else condition or a form of rule based condition. which will be represented as (Figure 1).
@@ -39,25 +46,25 @@ For this project we have decided to conduct task distribution through dicussion 
 Core game mechanics
 - Implementing webcam hand detection using cvzone (Due: 2025 May 29) - Tharsshen Govikrishnan
 -  Detecting hand gestures (Rock, Paper, Scissors) (Due: 2025 June 2) - Tharsshen Govikrishnan
--  Adding a basic background story (Due: 2025 June 3) - Hoi Wen Han
--  Setting up a basic GUI (BG.png) (Due: 2025 June 4) - Hoi Wen Han
--  Allowing game exit using the 'q' key (Due: 2025 June 4) - Tharsshen Govikrishnan, Khor Char Meng
+-  Adding a basic background story (Due: 2025 June 3) - Hoi Wen Han -  Li Xian
+-  Setting up a basic GUI (BG.png) (Due: 2025 June 4) - Hoi Wen Han - Li Xian
+-  Allowing game exit using the 'q' key (Due: 2025 June 4) - Tharsshen Govikrishnan, Khoh Char Meng
 
 Tournament Flow + UI
-- Tracking and displaying scores over 5 rounds (Due: 2025 June 5) - Hoi Wen Han, Khor Char Meng
-- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)- Khor Char Meng , Hoi Wen Han
-- Aligning player and AI visuals on screen (Due: 2025 June 5)- Hoi Wen Han
-- Score display at top left and right of screen (Due: 2025 June 5) - Khor Char Meng, Hoi Wen Han
-- Displaying result: win/loss/draw (Due: 2025 June 6) - Khor Char Meng , Hoi Wen Han
+- Tracking and displaying scores over 5 rounds (Due: 2025 June 5) - Hoi Wen Han, Khoh Char Meng
+- Declaring the final winner (Player, AI, or Draw) (Due: 2025 June 6)- Khoh Char Meng , Hoi Wen Han , Li Xian
+- Aligning player and AI visuals on screen (Due: 2025 June 5)- Hoi Wen Han - Li Xian
+- Score display at top left and right of screen (Due: 2025 June 5) - Khoh Char Meng, Hoi Wen Han,  Li Xian
+- Displaying result: win/loss/draw (Due: 2025 June 6) - Khoh Char Meng , Hoi Wen Han , Li Xian
 - Showing themed video using tkvideo (Due: 2025 June 6) - Tharsshen Govikrishnan
-- Adding a restart button (via 'r' key) (Due: 2025 June 6) - Khor Char Meng , Tharsshen Govikrishnan
+- Adding a restart button (via 'r' key) (Due: 2025 June 6) - Khoh Char Meng , Tharsshen Govikrishnan
 
 
 Game Modes & Engagement
-- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8) - Tharsshen Govikrishnan, Khor Char Meng, Hoi Wen Han
-- Adding sound effects (Due: 2025 June 9) - Khor Char Meng, Hoi Wen Han
+- Creating three difficulty modes (Easy, Medium, Hard) (Due: 2025 June 8) - Tharsshen Govikrishnan, Khoh Char Meng, Hoi Wen Han
+- Adding sound effects (Due: 2025 June 9) - Khoh Char Meng, Hoi Wen Han, , Li Xian
 - Implementing button-based mode selection (Due: 2025 June 11) - Tharsshen Govikrishnan, Hoi Wen Han
-- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11) - Khor Char Meng,  Tharsshen Govikrishnan
+- Integrating a round counter (5 rounds = 1 tournament) (Due: 2025 June 11) - Khoh Char Meng,  Tharsshen Govikrishnan
 
 
 Report
@@ -69,9 +76,9 @@ Report
 - Reflection & Conclusion (Due: 2025 June 15)
 
 Project basics 
-- open git hub create read me file - Khor Char Meng
-- determine the topic  - Hoi Wen Han , Khor Char Meng,  Tharsshen Govikrishnan
-- create a kanban board for schedule planaing - Hoi Wen Han
+- open git hub create read me file - Khoh Char Meng
+- determine the topic  - Hoi Wen Han , Khoh Char Meng,  Tharsshen Govikrishnan
+- create a kanban board for schedule planaing - Hoi Wen Han -  Li Xian
 
 Overall Figure 2 will be the complete version of the kanban board using website click up
 
@@ -82,9 +89,30 @@ Overall Figure 2 will be the complete version of the kanban board using website 
 
 
 5. Version Control
-Explain GitHub repository used
-Screenshots of commits, branches, tags
-Explanation of how we used the version control
+GitHub served as our collaborative version control tool for this project, which allow us to track and manage the development process.  All team members could review changes, contribute their work, and maintain project organization in this GitHub repository.
+
+We managed every stage of development using commits, branches, and tags in accordance with best practices. 
+
+To record the project's modifications and advancements, commits were made on a regular basis with concise, descriptive remarks.
+
+<div align="center">
+  <img src="figures/figure_3.png" alt="Figure 2: Kanban Board"/>
+  <p><em>Figure 2: GitHub Commits</em></p>
+</div>
+
+Branches were created to separate the tasks assigned to each group member, such as UI design, AI algorithm development, and testing.With this strategy, we were able to work simultaneously without restricting each other's contributions.
+
+<div align="center">
+  <img src="figures/figure_4.png" alt="Figure 2: Kanban Board"/>
+  <p><em>Figure 2: GitHub Branches</em></p>
+</div>
+
+
+Screenshots TAGS
+
+
+
+We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
 6. User Manual
 How to run the project
