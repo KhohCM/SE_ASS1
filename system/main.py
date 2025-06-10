@@ -54,3 +54,5 @@ while True:
         ai_score += 1
 
     print(f"Score → You: {player_score} | AI: {ai_score}")
+
+## version 1
