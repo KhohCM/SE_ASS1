@@ -115,9 +115,13 @@ Screenshots TAGS
 We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
 6. User Manual
-To run the system the first step will involve in running the main.py file
+To run the system the first step will involve import the following libraries in your IDE:
 
-```javascript
-main.py;
+```bash
+pip install opencv-python
+pip install cvzone
+pip install pygame
+pip install tkvideo
+pip install numpy
 
 
