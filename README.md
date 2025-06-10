@@ -1,4 +1,4 @@
-## 1.0 Project Introduction
+![image](https://github.com/user-attachments/assets/587e5b8f-6a32-42d8-a58a-2d6f3f5b1bd4)## 1.0 Project Introduction
 
 In this report, our group decided to discuss the idea and explore various types of algorithms in
 the Rock-Paper-Scissors game. Through this activity, our group decided to implement the
@@ -88,7 +88,7 @@ Overall Figure 2 will be the complete version of the kanban board using website 
 </div>
 
 
-5. Version Control
+##4. Version Control
 GitHub served as our collaborative version control tool for this project, which allow us to track and manage the development process.  All team members could review changes, contribute their work, and maintain project organization in this GitHub repository.
 
 We managed every stage of development using commits, branches, and tags in accordance with best practices. 
@@ -97,14 +97,14 @@ To record the project's modifications and advancements, commits were made on a r
 
 <div align="center">
   <img src="figures/figure_3.png" alt="Figure 2: Kanban Board"/>
-  <p><em>Figure 2: GitHub Commits</em></p>
+  <p><em>Figure 3: GitHub Commits</em></p>
 </div>
 
 Branches were created to separate the tasks assigned to each group member, such as UI design, AI algorithm development, and testing.With this strategy, we were able to work simultaneously without restricting each other's contributions.
 
 <div align="center">
   <img src="figures/figure_4.png" alt="Figure 2: Kanban Board"/>
-  <p><em>Figure 2: GitHub Branches</em></p>
+  <p><em>Figure 4: GitHub Branches</em></p>
 </div>
 
 
@@ -114,14 +114,51 @@ Screenshots TAGS
 
 We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
-6. User Manual
-To run the system the first step will involve import the following libraries in your IDE:
+##5. User Manual
+To run the system the first step will ensure that Python (version 3.8 or later) is installed on your computer.  
 
+1 Step activate python enviroment by: 
+```bash
+cd system
+cd env
+cd Scripts
+.\activate
+```
+2 step install all of the dependencies
 ```bash
 pip install opencv-python
 pip install cvzone
 pip install pygame
 pip install tkvideo
 pip install numpy
+```
+
+3 step once all of the libraries are installed run the main.py file loacted in under "system" directory.
+```bash
+python main.py
+```
+
+Next a cutsecene will be played and to skip it or proceed to the next cutscene , on the keyboard press 
+```bash
+press -"s" 
+```
+
+After the cutscene the game will be initiated, and to play it user can select any modes that they wish to have
+
+<div align="center">
+  <img src="figures/figure_5.png" alt="Figure 5: different modes"/>
+  <p><em>Figure 5: Different modes</em></p>
+</div>
+
+To wain the game they are required to play 5 rounds and after the 5 round a ending will be displayed which will be played in a mp4 format or a video format, and to exit the mpe or the ending on the keyboard press:
+```bash
+press - cap "q" 
+```
+
+Addtionally to exit the game user on their keyboard press:
+```bash
+press - "q" 
+```
+
 
 
