@@ -162,7 +162,7 @@ Addtionally to exit the game user on their keyboard press:
 press - "q" 
 ```
 
-## 6.2 Game Guide
+## 5.2 Game Guide
 
 This section outlines the steps to run and interact with the Rock Paper Scissors game project, designed to engage users through an immersive and interactive experience.
 
