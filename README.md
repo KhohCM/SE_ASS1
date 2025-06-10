@@ -150,7 +150,7 @@ After the cutscene the game will be initiated, and to play it user can select an
   <p><em>Figure 5: Different modes</em></p>
 </div>
 
-To wain the game they are required to play 5 rounds and after the 5 round a ending will be displayed which will be played in a mp4 format or a video format, and to exit the mpe or the ending on the keyboard press:
+To wain the game they are required to play 5 rounds and after the 5th round a ending will be displayed which will be played in a mp4 format or a video format, and to exit the mpe or the ending on the keyboard press:
 ```bash
 press - cap "q" 
 ```
