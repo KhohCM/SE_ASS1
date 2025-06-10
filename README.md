@@ -172,6 +172,8 @@ Keyboard Shortcut of the Game
 -	To exit the media player or view the game’s ending sequences, press the "Q" (capital Q) key.
 
 Game Start and Cutscene
+
+
 Upon launching the game, users are greeted with an introductory cutscene featuring a mysterious character who sets the stage for the game.  To proceed through the cutscene, users need to press the "s" key.
 
 
