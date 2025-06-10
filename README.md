@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/587e5b8f-6a32-42d8-a58a-2d6f3f5b1bd4)## 1.0 Project Introduction
+## 1.0 Project Introduction
 
 In this report, our group decided to discuss the idea and explore various types of algorithms in
 the Rock-Paper-Scissors game. Through this activity, our group decided to implement the
