@@ -88,7 +88,7 @@ Overall Figure 2 will be the complete version of the kanban board using website 
 </div>
 
 
-##4. Version Control
+## 4. Version Control
 GitHub served as our collaborative version control tool for this project, which allow us to track and manage the development process.  All team members could review changes, contribute their work, and maintain project organization in this GitHub repository.
 
 We managed every stage of development using commits, branches, and tags in accordance with best practices. 
@@ -114,7 +114,7 @@ Screenshots TAGS
 
 We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
-##5. User Manual
+## 5. User Manual
 To run the system the first step will ensure that Python (version 3.8 or later) is installed on your computer.  
 
 1 Step activate python enviroment by: 
