@@ -115,6 +115,8 @@ Screenshots TAGS
 We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
 ## 5. User Manual
+
+## 5.1 System Requirements
 To run the system the first step will ensure that Python (version 3.8 or later) is installed on your computer.  
 
 1 Step activate python enviroment by: 
@@ -160,5 +162,28 @@ Addtionally to exit the game user on their keyboard press:
 press - "q" 
 ```
 
+## 6.2 Game Guide
+
+This section outlines the steps to run and interact with the Rock Paper Scissors game project, designed to engage users through an immersive and interactive experience.
+
+Keyboard Shortcut of the Game
+-	To proceed through the cutscene, press the "s" key.
+-	To quit the game at any point, press the "q" key.
+-	To exit the media player or view the game’s ending sequences, press the "Q" (capital Q) key.
+
+Game Start and Cutscene
+Upon launching the game, users are greeted with an introductory cutscene featuring a mysterious character who sets the stage for the game.  To proceed through the cutscene, users need to press the "s" key.
+
+
+Gameplay Mechanics 
+-	After the cutscene, select a difficulty level from the available options.
+-	Position yourself in front of the webcam and prepare to perform one of three gestures: Rock, Paper, or Scissors.
+-	A countdown timer will signal when to display your gesture. The computer will simultaneously generate its own gesture to counter the user’s choice.
+-	The game consists of five rounds, with the winner determined by the best-of-five outcomes based on standard Rock Paper Scissors rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock).
+
+Gameplay Result
+-	If the user wins, hey are declared the saviour of the world.
+-	But if the computer wins, the world will be destroyed.
+-	This story enhancing the game’s narrative engagement.
 
 
