@@ -1,86 +1,58 @@
-import tkinter as tk
 import random
 
-# Create the main window
-root = tk.Tk()
-root.title("Rock Paper Scissors")
-root.geometry("400x400")
-root.config(bg="#222222")
+def get_user_choice():
+    print("\nChoose your move:")
+    print("1. Rock")
+    print("2. Paper")
+    print("3. Scissors")
+    print("Q. Quit")
 
-# Scores
+    choice = input("Your choice: ").lower()
+    return choice
+
+def get_ai_choice():
+    return random.choice(["rock", "paper", "scissors"])
+
+def determine_winner(player, ai):
+    if player == ai:
+        return "draw"
+    elif (player == "rock" and ai == "scissors") or \
+         (player == "paper" and ai == "rock") or \
+         (player == "scissors" and ai == "paper"):
+        return "player"
+    else:
+        return "ai"
+
 player_score = 0
 ai_score = 0
 
-# Choices
-choices = ["Rock", "Paper", "Scissors"]
+while True:
+    user_input = get_user_choice()
 
-# Functions
-def ai_move():
-    return random.choice(choices)
+    if user_input == 'q':
+        print("Thanks for playing!")
+        break
 
-def decide_winner(player, ai):
-    global player_score, ai_score
-    if player == ai:
-        result_label.config(text="It's a draw!")
-    elif (player == "Rock" and ai == "Scissors") or \
-         (player == "Paper" and ai == "Rock") or \
-         (player == "Scissors" and ai == "Paper"):
-        result_label.config(text="You win this round!")
+    if user_input not in ['1', '2', '3']:
+        print("Invalid input! Please try again.")
+        continue
+
+    user_move = {"1": "rock", "2": "paper", "3": "scissors"}[user_input]
+    ai_move = get_ai_choice()
+
+    print(f"\nYou chose {user_move}")
+    print(f"AI chose {ai_move}")
+
+    result = determine_winner(user_move, ai_move)
+    if result == "draw":
+        print("It's a draw!")
+    elif result == "player":
+        print("You win this round!")
         player_score += 1
     else:
-        result_label.config(text="AI wins this round!")
+        print("AI wins this round!")
         ai_score += 1
-    update_score()
 
-def play(player_choice):
-    ai_choice = ai_move()
-    player_label.config(text=f"You chose: {player_choice}")
-    ai_label.config(text=f"AI chose: {ai_choice}")
-    decide_winner(player_choice, ai_choice)
+    print(f"Score → You: {player_score} | AI: {ai_score}")
 
-def update_score():
-    score_label.config(text=f"Score → You: {player_score} | AI: {ai_score}")
-
-def reset_game():
-    global player_score, ai_score
-    player_score = 0
-    ai_score = 0
-    update_score()
-    result_label.config(text="")
-    player_label.config(text="")
-    ai_label.config(text="")
-
-# Widgets
-title = tk.Label(root, text="Rock Paper Scissors", font=("Helvetica", 20, "bold"), bg="#222222", fg="white")
-title.pack(pady=10)
-
-score_label = tk.Label(root, text="Score → You: 0 | AI: 0", font=("Helvetica", 14), bg="#222222", fg="white")
-score_label.pack()
-
-player_label = tk.Label(root, text="", font=("Helvetica", 12), bg="#222222", fg="white")
-player_label.pack()
-
-ai_label = tk.Label(root, text="", font=("Helvetica", 12), bg="#222222", fg="white")
-ai_label.pack()
-
-result_label = tk.Label(root, text="", font=("Helvetica", 16, "bold"), bg="#222222", fg="gold")
-result_label.pack(pady=10)
-
-# Buttons
-btn_frame = tk.Frame(root, bg="#222222")
-btn_frame.pack(pady=20)
-
-rock_btn = tk.Button(btn_frame, text="Rock", width=10, command=lambda: play("Rock"))
-rock_btn.grid(row=0, column=0, padx=10)
-
-paper_btn = tk.Button(btn_frame, text="Paper", width=10, command=lambda: play("Paper"))
-paper_btn.grid(row=0, column=1, padx=10)
-
-scissors_btn = tk.Button(btn_frame, text="Scissors", width=10, command=lambda: play("Scissors"))
-scissors_btn.grid(row=0, column=2, padx=10)
-
-reset_btn = tk.Button(root, text="Reset Game", width=15, command=reset_game, bg="darkred", fg="white")
-reset_btn.pack(pady=10)
-
-# Start the GUI loop
-root.mainloop()
+## version 1
