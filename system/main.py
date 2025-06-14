@@ -8,7 +8,7 @@ from tkinter import *
 from tkvideo import tkvideo
 
 class RockPaperScissorsGame:
-    def _init_(self):
+    def __init__(self):
         pygame.mixer.init()
         self.load_sounds()
 
