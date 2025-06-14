@@ -202,5 +202,7 @@ Looking back on our experience, we found a few areas for improvement that would 
 ## 6.4 Conclusion 
 
 In conclusion, the Rock-Paper-Scissors AI game was a meaningful learning experience for our team. We built a game that uses computer vision to detect hand gestures and respond with adaptive AI. The game includes multiple difficulty levels, making it more challenging and fun. Story elements, sound, and visuals made the experience more engaging.
+
 We used Agile methods like Scrum and Kanban to manage the project. Although we faced some problems with GitHub and communication, we learned to overcome them. Each team member contributed through coding, design, sound, and documentation. This showed our teamwork and adaptability.
+
 We improved our skills in Python, OpenCV, and game development. We also learned how to plan better and work together effectively. This project gave us both technical knowledge and real teamwork experience. It prepared us for more advanced projects in the future.
