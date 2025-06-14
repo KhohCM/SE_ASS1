@@ -8,7 +8,7 @@ strategies. The main goal of this task and in this report will be discussed ,was
 engaging game that highlighted the core algorithmic concepts or characteristics which includes
 time complexity, space complexity and adaptive algorithms that were engaging for participants.
 
-Each team member has made efforts in the respective fields. Tharsshen was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Wen Han and Li Xian concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
+Each team member has made efforts in the respective fields. Tharsshen was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Wen Han concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
 
 ## 2.0 System Development & Features
 
@@ -108,9 +108,12 @@ Branches were created to separate the tasks assigned to each group member, such 
 </div>
 
 
-Screenshots TAGS
+The original project setup, the implementation of key components, and the finished version that was prepared for submission were all marked with tags.  This made it easy for us to refer to steady points in the project timeline and let us track progress in a straightforward and understandable manner.
 
-
+<div align="center">
+  <img src="figures/figure_5.png" alt="Figure 2: Kanban Board"/>
+  <p><em>Figure 5: GitHub Tags</em></p>
+</div>
 
 We were able to keep an organized workflow, successfully handle disagreements, and preserve the project's whole history by using GitHub for version control.It also made collaboration easier by allowing us to review each other’s code and merge changes smoothly.
 
@@ -148,8 +151,8 @@ press -"s"
 After the cutscene the game will be initiated, and to play it user can select any modes that they wish to have
 
 <div align="center">
-  <img src="figures/figure_5.png" alt="Figure 5: different modes"/>
-  <p><em>Figure 5: Different modes</em></p>
+  <img src="figures/figure_6.png" alt="Figure 5: different modes"/>
+  <p><em>Figure 6: Different modes</em></p>
 </div>
 
 To wain the game they are required to play 5 rounds and after the 5th round a ending will be displayed which will be played in a mp4 format or a video format, and to exit the mpe or the ending on the keyboard press:
