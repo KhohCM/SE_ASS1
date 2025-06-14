@@ -273,7 +273,7 @@ class RockPaperScissorsGame:
         self.cap.release()
         cv2.destroyAllWindows()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     game = RockPaperScissorsGame()
     game.play_cutscene()  
     game.run()
