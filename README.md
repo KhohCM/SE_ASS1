@@ -8,7 +8,7 @@ strategies. The main goal of this task and in this report will be discussed ,was
 engaging game that highlighted the core algorithmic concepts or characteristics which includes
 time complexity, space complexity and adaptive algorithms that were engaging for participants.
 
-Each team member has made efforts in the respective fields. Tharsshen was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Wen Han concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
+Each team member has made efforts in the respective fields. Tharsshen was in charge of writing the code, which made sure the game's basic logic and functionality worked.  In order to make the game both visually appealing and easy to use, Wen Han and Li Xian concentrated on creating the user interface.  Throughout the development process, Char Meng contributed to both strategy and execution, offering invaluable help and support. We collaborated to develop a system that is not only useful but also enticing and instructive for users.
 
 ## 2.0 System Development & Features
 
